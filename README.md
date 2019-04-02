@@ -12,7 +12,9 @@ Deben implementar los métodos faltantes de la clase
 Además, deben implementar los métodos
 [`mergeSort()`](https://aztlan.fciencias.unam.mx/gitlab/2019-2-icc/practica8/blob/master/src/main/java/mx/unam/ciencias/icc/Lista.java#L290)
 y
-[`busquedaLineal()`](https://aztlan.fciencias.unam.mx/gitlab/2019-2-icc/practica8/blob/master/src/main/java/mx/unam/ciencias/icc/Lista.java#L315).
+[`busquedaLineal()`](https://aztlan.fciencias.unam.mx/gitlab/2019-2-icc/practica8/blob/master/src/main/java/mx/unam/ciencias/icc/Lista.java#L315)
+en la clase
+[Lista](https://aztlan.fciencias.unam.mx/gitlab/2019-2-icc/practica8/blob/master/src/main/java/mx/unam/ciencias/icc/Lista.java).
 
 Una vez que hayan terminado sus clases, además de que deben de pasar todas sus
 pruebas unitarias, se debe ejecutar correctamente el programa escrito en la
