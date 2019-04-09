@@ -130,13 +130,13 @@ public class Arreglos {
         int n = 0;
         int m = arreglo.length-1;
         while(n <= m) {
-                int a = (m+n)/2;
-                if(comparador.compare(arreglo[a], elemento) == 0)
-                        return a;
-                else if(comparador.compare(arreglo[a], elemento) > 0) {
+                int mitad = (m+n)/2;
+                if(comparador.compare(arreglo[mitad], elemento) == 0)
+                        return mitad;
+                else if(comparador.compare(arreglo[mitad], elemento) > 0) {
                         if(comparador.compare(arreglo[n], elemento) == 0)
                                 return n;
-                        m = a-1;
+                        m = mitad-1;
                         n = n + 1;
                 }
                 else{
